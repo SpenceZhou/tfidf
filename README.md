@@ -4,10 +4,10 @@ TF（Term Frequency）词频，指的是一个词在文档中出现的频次。
 
 IDF（Inverse Document Frequency）逆文档频率，指的是一个词在文档集中的重要性的度量。
 
-文档D中词w在文档集U中的TF-IDF值表示为（2-11）：
+文档D中词w在文档集U中的TF-IDF值表示为：
 
 TF‐IDF(w)=tf(w)*idf(w)
-=tf(w)*log(N/df(w) )                  （2-11）
+=tf(w)*log(N/df(w) )
 
 其中，tf(w)表示词w在文档D中出现的频率，df(w)表示文档集U中出现词w的文档数量，N表示文档集U的文档总数量。
 
